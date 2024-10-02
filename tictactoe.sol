@@ -357,7 +357,7 @@ contract TicTacToe {
         bool x = games[_index].boardData[0][0] == turn;
         bool y = games[_index].boardData[4][0] == turn;
         bool z = games[_index].boardData[8][0] == turn;
-        return x||y||z;
+        return x && y && z;
     }
 
     /*helper function to check if all three squares in the
@@ -368,7 +368,7 @@ contract TicTacToe {
         bool x = games[_index].boardData[2][0] == turn;
         bool y = games[_index].boardData[4][0] == turn;
         bool z = games[_index].boardData[6][0] == turn;
-        return x||y||z;
+        return x && y && z;
     }
 
     //helper function to return the absolute value of an integer
