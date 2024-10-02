@@ -1,6 +1,5 @@
 # advanced-tic-tac-toe
 An onchain multiplayer game of Tic Tac Toe with a twist.
-
 #
 
 Intended to be an onchain multiplayer game that requires little-to-no maintenance from the game developer after deployment.  Players can request new games and will be automatically matched with players waiting in the player queue.  Players can also create games with a unique seed and provide that seed to other players so that they will be guaranteed to play each other rather than a random player.  Players can wager on the game and the winner of the game receives the pot.   The game logic accounts for wins, losses, ties, and resignations.
