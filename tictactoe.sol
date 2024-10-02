@@ -38,7 +38,7 @@ contract TicTacToe {
         uint pendingDeposits;
     }
 
-    mapping(address => PlayerData) playerData;
+    mapping(address => PlayerData) public playerData;
 
     //queue to store players waiting for a game match
     address payable [] playerQueue;
